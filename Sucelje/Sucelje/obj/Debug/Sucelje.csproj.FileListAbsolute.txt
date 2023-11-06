@@ -1,0 +1,11 @@
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\bin\Debug\Sucelje.exe.config
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\bin\Debug\Sucelje.exe
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\bin\Debug\Sucelje.pdb
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.csproj.AssemblyReference.cache
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.csproj.SuggestedBindingRedirects.cache
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.Properties.Resources.resources
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.csproj.GenerateResource.cache
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.csproj.CoreCompileInputs.cache
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.exe
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.pdb
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.Biblioteka.resources
