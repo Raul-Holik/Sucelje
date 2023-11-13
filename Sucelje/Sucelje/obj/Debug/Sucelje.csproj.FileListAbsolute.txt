@@ -9,3 +9,4 @@ C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.c
 C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.exe
 C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.pdb
 C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.Biblioteka.resources
+C:\Users\ucenik\Documents\Raul Dominik Holik\Sucelje\Sucelje\obj\Debug\Sucelje.Forme.Korisnici.resources
