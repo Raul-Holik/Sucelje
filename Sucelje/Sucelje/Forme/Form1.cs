@@ -45,4 +45,29 @@ namespace Sucelje
             knjige.Show();
         }
     }
+
+    class Korisnik
+    {
+        int korisnikID;
+        string ime;
+        string mail;
+        string adresa;
+        int broj;
+
+        public int KorisnikID { get => korisnikID; set => korisnikID = value; }
+        public string Mail { get => mail; set => mail = value; }
+        public string Ime { get => ime; set => mail = value; }
+        public int Broj { get => broj; set => broj = value; }
+        public string Adresa { get => adresa; set => adresa = value; }
+
+        public Korisnik(int korisnikID, string ime, string mail, string adresa, int broj)
+        {
+            this.korisnikID = korisnikID;
+            this.ime = ime;
+            this.mail = mail;
+            this.adresa = adresa;
+            this.broj = broj;
+        }
+
+    }
 }
