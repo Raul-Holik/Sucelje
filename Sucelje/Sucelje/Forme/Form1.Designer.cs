@@ -30,7 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.korisniciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.korisniciToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.knjigeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.knjigeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,10 +47,10 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.korisniciToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.knjigeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -75,6 +77,13 @@
             this.korisniciToolStripMenuItem.Text = "Korisnici";
             this.korisniciToolStripMenuItem.Click += new System.EventHandler(this.korisniciToolStripMenuItem_Click);
             // 
+            // korisniciToolStripMenuItem1
+            // 
+            this.korisniciToolStripMenuItem1.Name = "korisniciToolStripMenuItem1";
+            this.korisniciToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.korisniciToolStripMenuItem1.Text = "Korisnici";
+            this.korisniciToolStripMenuItem1.Click += new System.EventHandler(this.korisniciToolStripMenuItem1_Click);
+            // 
             // knjigeToolStripMenuItem
             // 
             this.knjigeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -82,6 +91,13 @@
             this.knjigeToolStripMenuItem.Name = "knjigeToolStripMenuItem";
             this.knjigeToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.knjigeToolStripMenuItem.Text = "Knjige";
+            // 
+            // knjigeToolStripMenuItem1
+            // 
+            this.knjigeToolStripMenuItem1.Name = "knjigeToolStripMenuItem1";
+            this.knjigeToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
+            this.knjigeToolStripMenuItem1.Text = "Knjige";
+            this.knjigeToolStripMenuItem1.Click += new System.EventHandler(this.knjigeToolStripMenuItem1_Click);
             // 
             // label1
             // 
@@ -142,7 +158,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(31, 323);
+            this.button1.Location = new System.Drawing.Point(31, 339);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -227,13 +243,6 @@
             this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
             // 
-            // korisniciToolStripMenuItem1
-            // 
-            this.korisniciToolStripMenuItem1.Name = "korisniciToolStripMenuItem1";
-            this.korisniciToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.korisniciToolStripMenuItem1.Text = "Korisnici";
-            this.korisniciToolStripMenuItem1.Click += new System.EventHandler(this.korisniciToolStripMenuItem1_Click);
-            // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(31, 276);
@@ -253,12 +262,24 @@
             this.label8.TabIndex = 17;
             this.label8.Text = "Adresa";
             // 
-            // knjigeToolStripMenuItem1
+            // textBox5
             // 
-            this.knjigeToolStripMenuItem1.Name = "knjigeToolStripMenuItem1";
-            this.knjigeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.knjigeToolStripMenuItem1.Text = "Knjige";
-            this.knjigeToolStripMenuItem1.Click += new System.EventHandler(this.knjigeToolStripMenuItem1_Click);
+            this.textBox5.Location = new System.Drawing.Point(31, 303);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 18;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label9.ForeColor = System.Drawing.Color.Transparent;
+            this.label9.Location = new System.Drawing.Point(143, 303);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(22, 18);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "ID";
             // 
             // Biblioteka
             // 
@@ -266,6 +287,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sucelje.Properties.Resources.Knjiz;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.pictureBox4);
@@ -318,6 +341,8 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ToolStripMenuItem knjigeToolStripMenuItem1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label9;
     }
 }
 
